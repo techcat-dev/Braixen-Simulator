@@ -155,8 +155,8 @@ int main () {
         #else
             system("clear");
         #endif        
-        printf("Current event: ");
         printf("_____________________________\n \n");
+        printf("Current event: ");
         printf("You threw a PokeBerry near Braixen, she took it and ate it!\n");
         berries = berries - 1;
         charm = charm + 5;
