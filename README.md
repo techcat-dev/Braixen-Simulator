@@ -4,7 +4,7 @@ Interactive Linux CLI program that simulates an interaction between a human, and
 
 ![image](https://github.com/user-attachments/assets/dcf073b5-ed66-4af2-ae7b-de5afba58480)
 
-Compiling the on Linux:
+Compiling on Linux:
 
 Download braixen-simulator.c and run this command to compile a binary:
 
