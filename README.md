@@ -1,6 +1,6 @@
 (UNFINISHED, WORK IN PROGRESS)
 
-Interactive Linux CLI program that simulates an interaction between a human, and a wild Braixen.
+Interactive CLI program that simulates an interaction between a human, and a wild Braixen.
 
 Open Linux bash terminal and execute the program.
 
