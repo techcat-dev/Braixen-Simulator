@@ -6,9 +6,6 @@ Interactive CLI program that simulates an interaction between a human, and a wil
 
 ![image](https://github.com/user-attachments/assets/1549a6d2-a40f-4333-b963-97490a75e85b)
 
-![image](https://github.com/user-attachments/assets/86c7c02b-8cfa-4318-aade-22f937d70a76)
-
-
 _______________________________________________________________________________________________
 
 GAME FEATURES: 
