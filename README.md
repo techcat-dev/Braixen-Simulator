@@ -4,7 +4,11 @@ Interactive Linux CLI program that simulates an interaction between a human, and
 
 Open Linux bash terminal and execute the program.
 
-![image](https://github.com/user-attachments/assets/4d1bce8c-143b-4e93-b6d9-110e4ab0b349)
+
+
+![image](https://github.com/user-attachments/assets/1549a6d2-a40f-4333-b963-97490a75e85b)
+
+![image](https://github.com/user-attachments/assets/86c7c02b-8cfa-4318-aade-22f937d70a76)
 
 
 Compiling on Linux:
@@ -20,4 +24,8 @@ chmod a+x Braixen-Simulator
 Then run the program:
 
 ./Braixen-Simulator
+
+Compiling on Windows
+
+(COMING SOON!)
 
