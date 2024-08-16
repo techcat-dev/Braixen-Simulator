@@ -38,6 +38,8 @@ ________________________________________________________________________________
 
 Cross-Compiling on Linux (Or WSL) for Windows
 
+Download braixen-simulator.c and run this command to compile a binary:
+
 sudo apt-get update
 
 sudo apt-get install mingw-w64
