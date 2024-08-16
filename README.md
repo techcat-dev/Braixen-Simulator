@@ -22,7 +22,7 @@ ________________________________________________________________________________
 
 Compiling on Linux:
 
-Download braixen-simulator.c and run this command to compile a binary:
+Download braixen-simulator.c and run these commands to compile a binary:
 
 gcc braixen-simulator.c -o Braixen-Simulator
 
@@ -38,7 +38,7 @@ ________________________________________________________________________________
 
 Cross-Compiling on Linux (Or WSL) for Windows
 
-Download braixen-simulator.c and run this command to compile a binary:
+Download braixen-simulator.c and run these commands to compile a binary:
 
 sudo apt-get update
 
