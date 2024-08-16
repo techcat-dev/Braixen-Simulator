@@ -10,6 +10,10 @@ Download braixen-simulator.c and run this command to compile a binary:
 
 gcc braixen-simulator.c -o Braixen-Simulator
 
+Mark it as executable:
+
+chmod a+x Braixen-Simulator
+
 Then run the program:
 
 ./Braixen-Simulator
