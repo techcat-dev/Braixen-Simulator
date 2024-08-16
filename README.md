@@ -37,7 +37,12 @@ Then run the program:
 
 ./Braixen-Simulator
 
-Compiling on Windows
+_______________________________________________________________________________________________
 
-(COMING SOON!)
+Cross-Compiling on Linux (Or WSL) for Windows
 
+sudo apt-get update
+
+sudo apt-get install mingw-w64
+
+x86_64-w64-mingw32-gcc -o braixen-simulator.exe braixen-simulator.c -mconsole
