@@ -36,7 +36,7 @@ Then run the program:
 
 _______________________________________________________________________________________________
 
-Cross-Compiling on Linux (Or WSL) for Windows
+Cross-Compiling on Linux (Or WSL) for Windows:
 
 Download braixen-simulator.c and run these commands to compile a binary:
 
@@ -54,3 +54,4 @@ Typing in a string of characters instead of a number will glitch out the game.
 
 (Just don't do that, I have no clue how to fix it.)
 
+_______________________________________________________________________________________________
