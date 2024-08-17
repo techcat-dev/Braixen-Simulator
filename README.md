@@ -2,9 +2,13 @@
 
 Interactive CLI program that simulates an interaction between a human, and a wild Braixen.
 
-**WORKS ON WINDOWS AND LINUX!**
+**Runs on Windows, Linux, and MS-DOS!**
 
 ![image](https://github.com/user-attachments/assets/c0dd0a3d-d4f7-43d3-b569-a588a1701750)
+
+![image](https://github.com/user-attachments/assets/cba10b8f-a7b6-4a4e-a28a-c869616d02b2)
+
+![image](https://github.com/user-attachments/assets/3f1921ba-ef5e-4814-8474-c01f16c0b954)
 
 _______________________________________________________________________________________________
 
