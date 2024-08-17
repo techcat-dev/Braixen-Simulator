@@ -45,3 +45,10 @@ sudo apt-get update
 sudo apt-get install mingw-w64
 
 x86_64-w64-mingw32-gcc -o braixen-simulator.exe braixen-simulator.c -mconsole
+
+_______________________________________________________________________________________________
+
+Known Issues:
+
+Typing in a string of characters instead of a number will glitch out the game.
+
