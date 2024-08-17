@@ -2,7 +2,9 @@
 #include <stdlib.h>
 
 int firstlevel();
+int secondlevel();
 int clearit();
+int version();
 
 int main () {
 
@@ -22,10 +24,10 @@ printf("|_______|__||__|__|__|_____||__||___._||____|_____|__|  \n");
 printf("                                                        \n \n");
 
 printf("1. Play Game \n");
-printf("2. Exit Game \n \n");
+printf("2. Exit Game \n");
+// printf("3. Goto Second Level (DEBUG!) \n");
 
-printf("\n(Braixen Simulator Pre-Alpha 2.5 by TechCat-Dev on Github.) \n \n");
-
+version();
 
 scanf("%d", &userchoice);
 
@@ -35,14 +37,19 @@ if (userchoice == 1) {
 
 else if (userchoice == 2) {
 clearit();    
-printf("\n(Braixen Simulator Pre-Alpha 2.5 by TechCat-Dev on Github.) \n \n");
+version();      
+  }
+
+else if (userchoice == 3) {
+clearit();    
+secondlevel();
         }
 
 else {
 clearit();    
-printf("\n(Braixen Simulator Pre-Alpha 2.5 by TechCat-Dev on Github.) \n \n");
-        
-    }
+version();    
+}
+
 
 }
 
@@ -72,8 +79,9 @@ clearit();
 
     //INT CHECKS
 
-        if (charm >= 100) {
-            charm = 100;
+
+        if (charm == 100) {
+            dummy = 1;            
         }
 
     if (userhealth == 0) {
@@ -100,7 +108,7 @@ clearit();
         }
         else {
         clearit();    
-        printf("\n(Braixen Simulator Pre-Alpha 2.5 by TechCat-Dev on Github.) \n \n");
+        version();     
         return 0;
         }
     }
@@ -130,8 +138,7 @@ clearit();
         }
         else {
         clearit();    
-        printf("\n(Braixen Simulator Pre-Alpha 2.5 by TechCat-Dev on Github.) \n \n");
-        return 0;
+        version();        return 0;
         }
     }
     
@@ -151,7 +158,7 @@ clearit();
     printf("\nWhat will you do?: \n");
     printf("\n1. Pet her");
     printf("\n2. Throw a rock at her");
-    printf("\n3. Try to feed her");
+    printf("\n3. Feed her");
     printf("\n4. Exit game\n");
     printf("_____________________________\n \n");
     scanf("%d", &choice);
@@ -172,6 +179,10 @@ clearit();
         printf("Current event: ");
         printf("You've pet Braixen, she seems less mad now!\n");
         charm = charm + 10;
+
+        if (charm == 100) {
+            dummy = 1;            
+        }
         }
 
 
@@ -193,7 +204,11 @@ clearit();
         printf("Current event: ");
         printf("You threw a PokeBerry near Braixen, she took it and ate it!\n");
         berries = berries - 1;
-        charm = charm + 5;
+        charm = charm + 10;
+
+        if (charm == 100) {
+            dummy = 1;            
+        }
         }
 
         else if (berries == 0) {
@@ -208,21 +223,180 @@ clearit();
 
     else if (choice == 4) {
         clearit();    
-        printf("\n(Braixen Simulator Pre-Alpha 2.5 by TechCat-Dev on Github.) \n \n");
+        version();    
         return 0;
     }
 
     else {
-clearit();
+        clearit();
         printf("_____________________________\n \n");
         printf("Current event: ");
         printf("Please choose a valid option!\n");
+
     }
+
+    }
+
+
+
+
+clearit();
+secondlevel();
+
+}
+
+int secondlevel () {
+
+    int userchoice = 0;
+    int userhealth = 100;
+    int braixenhealth = 100;
+    int friendship = 0;
+    int dummy = 1;
+    int petsleft = 8;
+    int exitq = 0;
+
+    printf("_____________________________\n \n");
+    printf("You've successfully gained the trust of the wild Braixen! \n");
+
+    while (dummy == 1) {
+
+        //INT CHECKS
+
+        if (userhealth == 0) {
+        clearit();
+        printf("_____________________________\n \n");
+        printf("You lost all of your health, you blacked out!\n");
+        printf("_____________________________\n \n");
+        printf("Restart? \n \n");
+        printf("1. Yes \n");
+        printf("2. No (Exit Game)\n");
+        scanf("%d", &exitq);
+        if (exitq == 1) {
+    clearit();
+    printf("_____________________________\n \n");
+    printf("You've successfully gained the trust of the wild Braixen! \n");
+    userchoice = 0;
+    userhealth = 100;
+    braixenhealth = 100;
+    friendship = 0;
+    dummy = 1;
+    petsleft = 8;
+
+    }
+
+    else {
+    clearit();    
+    version();     
+    return 0;
+ }
+
+}
+
+if (friendship >= 100) {
+    clearit();
+    printf("You've completed the Demo of Braixen Simulator! Congrats. \n");
+    printf("Stay tuned to the Github Page of Braixen Simulator for new releases! \n");
+    printf("https://github.com/techcat-dev/Braixen-Simulator \n");
+    version();
+    printf("1. Exit game \n \n");
+    
+    scanf("%d", &exitq);
+
+    if (exitq == 1) {
+        return 0;
+    }
+
+    else {
+        return 0;
+    }
+
+}
+    
+    //MAIN MENU
+
+    printf("_____________________________\n \n");
+    printf("Braixen's Stats: \n");
+    printf("Braixen's Health: %d", braixenhealth);
+    printf("\n");
+    printf("Friendship Level: %d", friendship);
+    printf("\n \n");
+    printf("Your Stats: \n");
+    printf("Your Health: %d", userhealth);
+    printf("\n");
+
+    
+    printf("_____________________________\n \n");
+    printf("What will you do next? \n \n");
+    printf("1. Pet the Braixen \n");
+    printf("2. Hug the Braixen \n");
+    printf("3. Kiss the Braixen \n");
+    printf("4. Exit game \n");
+    printf("_____________________________\n \n");
+
+
+    scanf("%d", &userchoice);
+
+    if (userchoice == 1) {
+
+
+        if (petsleft > 0) {
+        clearit();
+        printf("_____________________________\n \n");
+        printf("You've pet the Braixen, she enjoyed it! \n");
+        petsleft = petsleft - 1;
+        friendship = friendship + 10;
+        }
+
+        if (petsleft == 0) {
+        clearit();
+        printf("_____________________________\n \n");
+        printf("You tried to pet the Braixen, but she moved away! \n");
+        }
+
+
+
+    }
+
+    else if (userchoice == 2) {
+
+        if (friendship < 25) {
+        clearit();
+        printf("_____________________________\n \n");
+        printf("You tried to hug the Braixen, she avoided your hug! \n");
+        }
+
+        if (friendship >= 25) {
+            clearit();
+            printf("_____________________________\n \n");
+            printf("You hugged the Braixen, she's super happy now! \n");
+            friendship = friendship + 20;
+        }
+    }
+
+   else if (userchoice == 3) {
+        clearit();
+        printf("_____________________________\n \n");
+        printf("You tried to kiss the Braixen, but she hit you with her stick instead! \n");
+        userhealth = userhealth - 10;
+        petsleft = 8;
+
+   }
+
+   else if (userchoice == 4) {
+    clearit();
+    version();
+    return 0;
+   }
+
+
 
     }
 
 
 }
+
+
+
 
 int clearit () {
     #ifdef _WIN32
@@ -230,4 +404,8 @@ int clearit () {
         #else
             system("clear");
         #endif
+}
+
+int version () {
+    printf("\n(Braixen Simulator Pre-Alpha 3.1 by TechCat-Dev on Github.) \n \n");
 }
