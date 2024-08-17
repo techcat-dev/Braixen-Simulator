@@ -52,3 +52,5 @@ Known Issues:
 
 Typing in a string of characters instead of a number will glitch out the game.
 
+(Just don't do that, I have no clue how to fix it.)
+
