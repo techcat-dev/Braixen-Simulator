@@ -4,17 +4,13 @@ Interactive CLI program that simulates an interaction between a human, and a wil
 
 **WORKS ON WINDOWS AND LINUX!**
 
-![image](https://github.com/user-attachments/assets/1549a6d2-a40f-4333-b963-97490a75e85b)
+![image](https://github.com/user-attachments/assets/c0dd0a3d-d4f7-43d3-b569-a588a1701750)
 
 _______________________________________________________________________________________________
 
-GAME FEATURES: 
+Game premise: 
 
-So far, you can: 
-
-1. Pet the Braixen (You will get bitten if your charm level is below 25, and you will lose 10HP.)
-2. Throw a rock at Braixen (You will lose all of your charm levels if you do this, and Braixen will lose 10HP.)
-3. Try to feed the Braixen (This will make your charm level go up by 5.)
+You are a normal human that has encountered a wild Braixen, you must tame this Braixen and make it your friend!
 
 *THERE IS CURRENTLY NO WAY TO WIN THIS GAME!!!*
 
