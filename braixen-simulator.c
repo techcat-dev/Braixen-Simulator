@@ -399,11 +399,14 @@ if (friendship >= 100) {
 
 
 int clearit () {
-    #ifdef _WIN32
-            system("cls");
-        #else
-            system("clear");
-        #endif
+#ifdef _WIN32
+    system("cls");
+#elif defined(__MSDOS__) || defined(_DOS)
+    system("cls");
+#else
+    system("clear");
+#endif
+
 }
 
 int version () {
