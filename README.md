@@ -48,6 +48,16 @@ x86_64-w64-mingw32-gcc -o braixen-simulator.exe braixen-simulator.c -mconsole
 
 _______________________________________________________________________________________________
 
+Compiling on MS-DOS:
+
+Download and install OpenWatcom C compiler on your MS-DOS install, and then run this command:
+
+wcl braixen-simulator.c
+
+and then run the newly created DOS executable!
+
+_______________________________________________________________________________________________
+
 Known Issues:
 
 Typing in a string of characters instead of a number will glitch out the game.
