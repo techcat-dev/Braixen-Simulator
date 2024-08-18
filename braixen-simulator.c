@@ -5,6 +5,14 @@ int firstlevel();
 int secondlevel();
 int clearit();
 int version();
+int prelude();
+int waitint();
+
+void awaitenter() {
+    while (getchar() != '\n');
+}
+
+
 
 int main () {
 
@@ -32,7 +40,7 @@ version();
 scanf("%d", &userchoice);
 
 if (userchoice == 1) {
-    firstlevel();
+    prelude();
 }
 
 else if (userchoice == 2) {
@@ -50,6 +58,64 @@ clearit();
 version();    
 }
 
+
+}
+
+
+int prelude () {
+
+clearit();
+
+awaitenter();
+
+printf("Game Plot:\n");
+printf("You are a 20-something year old human. you've decided that you\n");
+printf("want to go out and become a Pokemon Trainer. Without any\n");
+printf("knowledge on how to do so, you take a hike to the nearest patch\n");
+printf("of grass you can find, and start walking around aimlessly until\n");
+printf("you can encounter a wild Pokemon.\n\n");
+printf("Press Enter to continue \n");
+
+awaitenter();
+
+clearit();
+printf("Unfortunately, you lost track of where you were wandering and\n");
+printf("ended up deep in a forest, all by yourself. You look inside of\n");
+printf("the backpack you brought with you for anything that could help\n");
+printf("you escape the forest. After rummaging through your bag, you\n");
+printf("find nothing that could help you escape this situation you're\n");
+printf("in. you decide to try and backtrace your steps to get back\n");
+printf("home. but this is when something very odd happened.\n\n");
+printf("Press Enter to continue \n");
+
+
+awaitenter();
+
+clearit();
+printf("You encounter a Pokemon! but this Pokemon is unlike anything\n");
+printf("you've seen in the past. It has big yellow ears with long red\n");
+printf("tufts in them, glowing red eyes like you've never seen before,\n");
+printf("and a big bushy tail with a twig stuck in it. You're totally\n");
+printf("allured by this Pokemon, and decide that now's your chance to\n");
+printf("become the Pokemon trainer you've always wanted to be!\n\n");
+printf("Press Enter to continue \n");
+
+
+awaitenter();
+
+clearit();
+printf("You take a small rock off the ground, and chuck it at the\n");
+printf("Pokemon to get its attention. The Pokemon then turns around and\n");
+printf("faces you. It takes the twig out of its tail and points it in\n");
+printf("your direction. You notice that the tip of the twig is now on\n");
+printf("fire! Now's your chance!\n \n");
+printf("--PRESS ENTER TO START THE GAME--\n");
+
+awaitenter();
+
+
+clearit();
+firstlevel();
 
 }
 
@@ -410,5 +476,5 @@ int clearit () {
 }
 
 int version () {
-    printf("\n(Braixen Simulator Pre-Alpha 3.1 by TechCat-Dev on Github.) \n \n");
+    printf("\n(Braixen Simulator Pre-Alpha 3.2 by TechCat-Dev on Github.) \n \n");
 }
