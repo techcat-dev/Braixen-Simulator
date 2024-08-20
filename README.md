@@ -22,6 +22,12 @@ The Pokemon then turns around and faces you. It takes the twig out of its tail a
 
 _______________________________________________________________________________________________
 
+For people that don't own a computer that can run MS-DOS, or don't want to set up an emulator can play the game in your web browser using Archive.org's online emulator!
+
+https://archive.org/details/braixen-simulator-dos
+
+_______________________________________________________________________________________________
+
 Compiling on MS-DOS:
 
 Download and install OpenWatcom C compiler on your MS-DOS install, and then run this command:
