@@ -150,7 +150,7 @@ int firstlevel () {
 
 clearit();
             printf("________________________________________________________________________________\n");
-    printf("a wild Braixen has appeared!\n");    
+    printf("A wild Braixen has appeared!\n");    
     //USER IS STUCK IN WHILE LOOP UNTIL DUMMY DOESNT EQUAL 0
 
     while (dummy == 0) {
@@ -182,7 +182,7 @@ clearit();
         exitq = 0;
 clearit();
             printf("________________________________________________________________________________\n");
-    printf("a Wild Braixen has appeared!\n");
+    printf("A wild Braixen has appeared!\n");
         }
         else {
         clearit();    
@@ -211,7 +211,7 @@ clearit();
         exitq = 0;
          clearit();
             printf("________________________________________________________________________________\n");
-    printf("a wild Braixen has appeared!\n");
+    printf("A wild Braixen has appeared!\n");
         }
         else {
         clearit();    
@@ -641,7 +641,7 @@ awaitenter();
 printf("Braixen: If I uncover your mouth, do you promise to not scream?\n");
 awaitenter();
 
-printf("(You nod slightly, indicating that you agree, they take their\n");
+printf("(You nod slightly, indicating that you agree. they take their\n");
 printf("hand off your mouth.)\n");
 awaitenter();
 
