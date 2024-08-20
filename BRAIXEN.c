@@ -195,7 +195,7 @@ clearit();
     if (braixenhealth == 0) {
 clearit();
         printf("________________________________________________________________________________\n");
-        printf("Braixen lost all of her health, she fainted!\n");
+        printf("Braixen lost all of their health, they fainted!\n");
         printf("________________________________________________________________________________\n");
         printf("Restart? \n \n");
         printf("1. Yes \n");
@@ -258,13 +258,13 @@ clearit();
          if (charm < 25) {
 
                     printf("________________________________________________________________________________\n");
-            printf("You tried to pet the Braixen, but she bit you! \n");
+            printf("You tried to pet the Braixen, but they bit you! \n");
             userhealth = userhealth - 10;
         }
 
         else if (charm >= 25) {
                 printf("________________________________________________________________________________\n");
-        printf("You've pet the Braixen, she seems less mad now!\n");
+        printf("You've pet the Braixen, they seems less mad now!\n");
         charm = charm + 10;
 
         if (charm == 100) {
@@ -287,7 +287,7 @@ clearit();
         if (berries > 0) {
 clearit();
                 printf("________________________________________________________________________________\n");
-        printf("You threw a wild PokeBerry near the Braixen, she ate it!\n");
+        printf("You threw a wild PokeBerry near the Braixen, they ate it!\n");
         berries = berries - 1;
         charm = charm + 10;
 
@@ -422,7 +422,7 @@ int secondlevel () {
         if (petsleft > 0) {
         clearit();
         printf("________________________________________________________________________________\n");
-        printf("You've pet the Braixen, she enjoyed it! \n");
+        printf("You've pet the Braixen, they enjoyed it! \n");
         petsleft = petsleft - 1;
         friendship = friendship + 10;
         }
@@ -430,7 +430,7 @@ int secondlevel () {
         if (petsleft == 0) {
         clearit();
         printf("________________________________________________________________________________\n");
-        printf("You tried to pet the Braixen, but she moved away! \n");
+        printf("You tried to pet the Braixen, but they moved away! \n");
         }
 
 
@@ -442,7 +442,7 @@ int secondlevel () {
         if (friendship < 25) {
         clearit();
         printf("________________________________________________________________________________\n");
-        printf("You tried to hug the Braixen, she avoided your hug! \n");
+        printf("You tried to hug the Braixen, they avoided your hug! \n");
 
 
         }
@@ -450,7 +450,7 @@ int secondlevel () {
         if (friendship >= 25) {
             clearit();
             printf("________________________________________________________________________________\n");
-            printf("You hugged the Braixen, she's super happy now! \n");
+            printf("You hugged the Braixen, they're super happy now! \n");
             friendship = friendship + 20;
         }
     }
@@ -458,7 +458,7 @@ int secondlevel () {
    else if (userchoice == 3) {
         clearit();
         printf("________________________________________________________________________________\n");
-        printf("You tried to kiss the Braixen, but she hit you with their stick instead! \n");
+        printf("You tried to kiss the Braixen, but they hit you with their stick instead! \n");
         userhealth = userhealth - 10;
         petsleft = 8;
 
