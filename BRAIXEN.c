@@ -149,7 +149,6 @@ int firstlevel () {
     char input[100];
 
 clearit();
-            printf("________________________________________________________________________________\n");
     printf("Current event: ");
     printf("a Wild Braixen has appeared!\n");    
     //USER IS STUCK IN WHILE LOOP UNTIL DUMMY DOESNT EQUAL 0
@@ -182,7 +181,6 @@ clearit();
         braixenhealth = 100;
         exitq = 0;
 clearit();
-    printf("________________________________________________________________________________\n");
     printf("Current event: ");
     printf("a Wild Braixen has appeared!\n");
         }
@@ -212,7 +210,6 @@ clearit();
         braixenhealth = 100;
         exitq = 0;
          clearit();
-    printf("________________________________________________________________________________\n");
     printf("Current event: ");
     printf("a Wild Braixen has appeared!\n");
         }
@@ -259,14 +256,12 @@ clearit();
     if (choice == 1) {
         clearit();       
          if (charm < 25) {
-            printf("________________________________________________________________________________\n");
             printf("Current event: ");
             printf("You tried to pet the Braixen, but she bit you! \n");
             userhealth = userhealth - 10;
         }
 
         else if (charm >= 25) {
-        printf("________________________________________________________________________________\n");
         printf("Current event: ");
         printf("You've pet the Braixen, she seems less mad now!\n");
         charm = charm + 10;
@@ -281,7 +276,6 @@ clearit();
 
     else if (choice == 2) {
 clearit();
-        printf("________________________________________________________________________________\n");
         printf("Current event: ");
         printf("You threw a rock at the Braixen, it hit her head. how rude!\n");
         charm = 0;
@@ -291,7 +285,6 @@ clearit();
     else if (choice == 3) {        
         if (berries > 0) {
 clearit();
-        printf("________________________________________________________________________________\n");
         printf("Current event: ");
         printf("You threw a wild PokeBerry near the Braixen, she ate it!\n");
         berries = berries - 1;
@@ -304,7 +297,6 @@ clearit();
 
         else if (berries == 0) {
 clearit();
-        printf("________________________________________________________________________________\n");
         printf("Current event: ");
         printf("You're out of wild Pokeberries!\n");
         }
@@ -320,7 +312,6 @@ clearit();
 
     else {
         clearit();
-        printf("________________________________________________________________________________\n");
         printf("Current event: ");
         printf("Please choose a valid option!\n");
 
@@ -347,8 +338,7 @@ int secondlevel () {
     int exitq = 0;
     char input[100];
 
-    printf("________________________________________________________________________________\n");
-    printf("You've successfully gained the trust of the wild Braixen! \n");
+    printf("You've gained the trust of the wild Braixen! \n");
 
     while (dummy == 1) {
 
@@ -370,8 +360,7 @@ int secondlevel () {
     
     
     clearit();
-    printf("________________________________________________________________________________\n");
-    printf("You've successfully gained the trust of the wild Braixen! \n");
+    printf("You've gained the trust of the wild Braixen! \n");
     userchoice = 0;
     userhealth = 100;
     braixenhealth = 100;
@@ -430,7 +419,6 @@ int secondlevel () {
 
         if (petsleft > 0) {
         clearit();
-        printf("________________________________________________________________________________\n");
         printf("You've pet the Braixen, she enjoyed it! \n");
         petsleft = petsleft - 1;
         friendship = friendship + 10;
@@ -438,7 +426,6 @@ int secondlevel () {
 
         if (petsleft == 0) {
         clearit();
-        printf("________________________________________________________________________________\n");
         printf("You tried to pet the Braixen, but she moved away! \n");
         }
 
@@ -450,7 +437,6 @@ int secondlevel () {
 
         if (friendship < 25) {
         clearit();
-        printf("________________________________________________________________________________\n");
         printf("You tried to hug the Braixen, she avoided your hug! \n");
 
 
@@ -458,7 +444,6 @@ int secondlevel () {
 
         if (friendship >= 25) {
             clearit();
-            printf("________________________________________________________________________________\n");
             printf("You hugged the Braixen, she's super happy now! \n");
             friendship = friendship + 20;
         }
@@ -466,7 +451,6 @@ int secondlevel () {
 
    else if (userchoice == 3) {
         clearit();
-        printf("________________________________________________________________________________\n");
         printf("You tried to kiss the Braixen, but she hit you with her stick instead! \n");
         userhealth = userhealth - 10;
         petsleft = 8;
@@ -483,7 +467,6 @@ int secondlevel () {
 
          else {
         clearit();
-        printf("________________________________________________________________________________\n");
         printf("Current event: ");
         printf("Please choose a valid option!\n");
 
