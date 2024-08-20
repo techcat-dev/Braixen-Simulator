@@ -240,9 +240,9 @@ clearit();
     printf("________________________________________________________________________________\n");
 
     printf("What will you do?: \n");
-    printf("1. Pet her\n");
-    printf("2. Throw a rock at her\n");
-    printf("3. Feed her\n");
+    printf("1. Pet them\n");
+    printf("2. Throw a rock at them\n");
+    printf("3. Feed them\n");
     printf("4. Exit game\n");
     printf("________________________________________________________________________________\n");
 
@@ -278,7 +278,7 @@ clearit();
     else if (choice == 2) {
 clearit();
                 printf("________________________________________________________________________________\n");
-        printf("You threw a rock at the Braixen, it hit her head. how rude!\n");
+        printf("You threw a rock at the Braixen, it hit them head. how rude!\n");
         charm = 0;
         braixenhealth = braixenhealth - 10;
     }
@@ -458,7 +458,7 @@ int secondlevel () {
    else if (userchoice == 3) {
         clearit();
         printf("________________________________________________________________________________\n");
-        printf("You tried to kiss the Braixen, but she hit you with her stick instead! \n");
+        printf("You tried to kiss the Braixen, but she hit you with their stick instead! \n");
         userhealth = userhealth - 10;
         petsleft = 8;
 
