@@ -293,7 +293,7 @@ clearit();
 clearit();
         printf("________________________________________________________________________________\n");
         printf("Current event: ");
-        printf("You threw a wild PokeBerry near the Braixen, she took it and ate it!\n");
+        printf("You threw a wild PokeBerry near the Braixen, she ate it!\n");
         berries = berries - 1;
         charm = charm + 10;
 
@@ -306,7 +306,7 @@ clearit();
 clearit();
         printf("________________________________________________________________________________\n");
         printf("Current event: ");
-        printf("You're out of berries!\n");
+        printf("You're out of wild Pokeberries!\n");
         }
 
 
