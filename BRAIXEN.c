@@ -21,9 +21,10 @@ void awaitenter() {
 int main () {
 
 int userchoice = 0;
+int continuechoice = 0;
 
 clearit();
-
+printf("________________________________________________________________________________\n");
 printf(" ______              __                                 \n");
 printf("|   __ \\.----.---.-.|__|.--.--.-----.-----.             \n");
 printf("|   __ <|   _|  _  ||  ||_   _|  -__|     |             \n");
@@ -34,15 +35,17 @@ printf("|     __|__|.--------.--.--.|  |.---.-.|  |_.-----.----.\n");
 printf("|__     |  ||        |  |  ||  ||  _  ||   _|  _  |   _|\n");
 printf("|_______|__||__|__|__|_____||__||___._||____|_____|__|  \n");
 printf("                                                        \n \n");
+
+printf("________________________________________________________________________________\n");
 printf("Simulate the interesting adventure between a Human, and a Braixen! \n \n");
 
 printf("1. Play Game \n");
-printf("2. Exit Game \n \n");
-printf("3. Continue at Second Level \n");
-printf("4. Continue at Third Level \n");
+printf("2. Continue\n");
+printf("3. Exit Game \n ");
 
 
 version();
+printf("________________________________________________________________________________\n");
 
 scanf("%d", &userchoice);
 
@@ -52,18 +55,42 @@ if (userchoice == 1) {
 
 else if (userchoice == 2) {
 clearit();    
-version();      
-  }
+printf("________________________________________________________________________________\n");
+printf("Continue Menu:\n");
+printf("________________________________________________________________________________\n");
+printf("1. Continue at First Level (Game Intro)\n");
+printf("2. Continue at Second Level (Game Intro)\n");
+printf("________________________________________________________________________________\n");
+printf("3. Continue at First Chapter\n");
+printf("________________________________________________________________________________\n");
+
+scanf("%d", &continuechoice);
+
+if (continuechoice == 1) {
+    firstlevel();
+}
+
+else if (continuechoice == 2) {
+    secondlevel();
+}
+
+else if (continuechoice == 3) {
+    thirdlevel();
+}
+
+else {
+    return 0;
+}
+
+
+
+        }
 
 else if (userchoice == 3) {
 clearit();    
-secondlevel();
-        }
+version();      
+  }
 
-if (userchoice == 4) {
-    clearit();
-    thirdlevel();
-}
 
 else {
 clearit();    
@@ -741,18 +768,11 @@ demonotice();
 
 
 int clearit () {
-#ifdef _WIN32
     system("cls");
-#elif defined(__MSDOS__) || defined(_DOS)
-    system("cls");
-#else
-    system("clear");
-#endif
-
 }
 
 int version () {
-    printf("\n(Braixen Simulator Beta 1.1 by TechCat-Dev on Github.)\n \n");
+    printf("\n(Braixen Simulator Beta 1.2 by TechCat-Dev on Github.)\n");
 }
 
 int demonotice () {
