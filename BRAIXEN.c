@@ -264,7 +264,7 @@ clearit();
 
         else if (charm >= 25) {
                 printf("________________________________________________________________________________\n");
-        printf("You've pet the Braixen, they seems less mad now!\n");
+        printf("You've pet the Braixen, they seem less mad now!\n");
         charm = charm + 10;
 
         if (charm == 100) {
