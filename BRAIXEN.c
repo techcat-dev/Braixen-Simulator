@@ -24,7 +24,7 @@ int userchoice = 0;
 int continuechoice = 0;
 
 clearit();
-printf("________________________________________________________________________________\n");
+printf("________________________________________________________________________________ \n");
 printf(" ______              __                                 \n");
 printf("|   __ \\.----.---.-.|__|.--.--.-----.-----.             \n");
 printf("|   __ <|   _|  _  ||  ||_   _|  -__|     |             \n");
@@ -34,7 +34,7 @@ printf(" _______ __                  __         __              \n");
 printf("|     __|__|.--------.--.--.|  |.---.-.|  |_.-----.----.\n");
 printf("|__     |  ||        |  |  ||  ||  _  ||   _|  _  |   _|\n");
 printf("|_______|__||__|__|__|_____||__||___._||____|_____|__|  \n");
-printf("                                                        \n \n");
+printf("                                                        \n");
 
 printf("________________________________________________________________________________\n");
 printf("Simulate the interesting adventure between a Human, and a Braixen! \n \n");
@@ -60,8 +60,8 @@ printf("Continue Menu:\n");
 printf("________________________________________________________________________________\n");
 printf("1. Continue at First Level (Game Intro)\n");
 printf("2. Continue at Second Level (Game Intro)\n");
-printf("________________________________________________________________________________\n");
 printf("3. Continue at First Chapter\n");
+printf("4. Back to Main Menu \n");
 printf("________________________________________________________________________________\n");
 
 scanf("%d", &continuechoice);
@@ -76,6 +76,10 @@ else if (continuechoice == 2) {
 
 else if (continuechoice == 3) {
     thirdlevel();
+}
+
+else if (continuechoice == 4) {
+    main();
 }
 
 else {
