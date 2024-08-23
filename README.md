@@ -39,7 +39,6 @@ and then run the newly created DOS executable!
 
 _______________________________________________________________________________________________
 
-![Braixen](https://github.com/user-attachments/assets/2e52b516-94c0-4e62-9456-691dba0dd804)
+(This is what A Braixen looks like, for reference.)
 
-                  (This is what A Braixen looks like, for reference.)
-
+![Braixen_optimized](https://github.com/user-attachments/assets/664c644d-8232-486a-82ae-54783d6dd094)
