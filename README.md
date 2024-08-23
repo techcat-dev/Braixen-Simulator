@@ -4,8 +4,6 @@ Interactive program that simulates an adventure between a human, and a wild Brai
 
 **Runs on MS-DOS!**
 
-![image](https://github.com/user-attachments/assets/25772f60-378d-43dd-8364-828926457fa8)
-
 ![20240821_230634](https://github.com/user-attachments/assets/b6713e4f-05f7-4ac8-ade0-990687b0a2b3)
 
 
