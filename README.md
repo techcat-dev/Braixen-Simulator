@@ -41,5 +41,5 @@ ________________________________________________________________________________
 
 ![Braixen](https://github.com/user-attachments/assets/2e52b516-94c0-4e62-9456-691dba0dd804)
 
-(This is what A Braixen looks like, for reference.)
+                  (This is what A Braixen looks like, for reference.)
 
