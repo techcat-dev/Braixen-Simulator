@@ -573,19 +573,17 @@ printf("You: Huh? Wait, you can talk?\n");
 awaitenter();
 
 printf("Braixen: Of course I can, human. Braixen's are very intelligent\n");
-printf("Pokemon. Didn't you know that?\n");
-awaitenter();
+printf("Pokemon. Didn't you know that?\n\n");
 
 printf("1. Yes, of course.\n");
 printf("2. I didn't know that.\n");
-awaitenter();
 
 scanf("%s", input);
 response = atoi(input);
 
 if (response == 1) {
     awaitenter();
-    printf("Braixen: Hah! Of course you knew. You seem like the kind of\n");
+    printf("\nBraixen: Hah! Of course you knew. You seem like the kind of\n");
     printf("person that knows a lot about Pokemon!\n");
     awaitenter();
 
@@ -598,7 +596,7 @@ if (response == 1) {
 
 else if (response == 2) {
     awaitenter();
-    printf("Braixen: Hmph! How rude! Approaching a Braixen and not even knowing\n");
+    printf("\nBraixen: Hmph! How rude! Approaching a Braixen and not even knowing\n");
     printf("how intelligent it could be??\n");
     awaitenter();
 
@@ -615,7 +613,7 @@ else if (response == 2) {
 
 else {
     awaitenter();
-    printf("Braixen: Hmph! How rude! Approaching a Braixen and not even knowing\n");
+    printf("\nBraixen: Hmph! How rude! Approaching a Braixen and not even knowing\n");
     printf("how intelligent it could be??\n");
     awaitenter();
 
@@ -790,13 +788,13 @@ awaitenter();
 
 //NEEEEEWWWWWW
 
-printf("(The Braixen is now walking down the forest path, sniffing the ground as it\n");
-printf("tries to follow your scent trail.)\n");
+printf("(The Braixen is now walking down the forest path, sniffing the\n");
+printf("ground as it tries to follow your scent trail.)\n");
 awaitenter();
 
-printf("(A few hours have passed at this point. you're seriously starting to doubt\n");
-printf("that the Braixen actually knows where they're going, or if you'll actually\n");
-printf("get out of this forest anytime soon.)\n");
+printf("(A few hours have passed at this point. you're seriously starting to\n");
+printf("doubt that the Braixen actually knows where they're going, or if\n");
+printf("you'll actually get out of this forest anytime soon.)\n");
 awaitenter();
 
 printf("You: Hey, uh.. Braixen?\n");
@@ -814,16 +812,17 @@ awaitenter();
 printf("You: BRAIXEN!\n");
 awaitenter();
 
-printf("(The Braixen then turns around and faces you, obviously very frustrated and\n");
-printf("tired)\n");
+printf("(The Braixen then turns around and faces you, obviously very\n");
+printf("frustrated and tired)\n");
 awaitenter();
 
-printf("You: Are you sure you know where the exit of the forest is? We've been walking\n");
-printf("for hours and it's getting pretty dark now, don't ya think?\n");
+printf("You: Are you sure you know where the exit of the forest is? We've\n");
+printf("been walking for hours and it's getting pretty dark now, don't ya\n");
+printf("think?\n");
 awaitenter();
 
-printf("(The Braixen turns their head away from you. They walk over to a tree, sit down,\n");
-printf("and start leaning against it.)\n");
+printf("(The Braixen turns their head away from you. They walk over to a tree,\n");
+printf("sit down, and start leaning against it.)\n");
 awaitenter();
 
 printf("(You walk over to the Braixen, concerned that something might be wrong.)\n");
@@ -841,8 +840,8 @@ awaitenter();
 printf("Braixen: Uhm... I-I don't know.\n");
 awaitenter();
 
-printf("(You start to notice that the Braixen's voice is getting very shaky, they sound\n");
-printf("really distressed.)\n");
+printf("(You start to notice that the Braixen's voice is getting very shaky,\n");
+printf("they sound really distressed.)\n");
 awaitenter();
 
 printf("You: You don't know the way out, don't you?\n");
@@ -854,8 +853,8 @@ awaitenter();
 printf("You: You said that you could find the way out based on my scent though?\n");
 awaitenter();
 
-printf("Braixen: I could! B-But... I lost the trail a while ago. I just didn't want to\n");
-printf("admit it!!\n");
+printf("Braixen: I could! B-But... I lost the trail a while ago. I just\n");
+printf("didn't want to admit it!!\n");
 awaitenter();
 
 printf("You: Oh great, so now we're in the middle of nowhere now. Are you serious??\n");
@@ -873,8 +872,8 @@ awaitenter();
 printf("(You try to comfort the Braixen by petting its head, but to no avail.)\n");
 awaitenter();
 
-printf("(You decide that enough is enough, and you get up and start walking by yourself.\n");
-printf("The Braixen notices this and perks their head up.)\n");
+printf("(You decide that enough is enough, and you get up and start walking by\n");
+printf("yourself. The Braixen notices this and perks their head up.)\n");
 awaitenter();
 
 printf("Braixen: W-Wait, Where are you going?\n");
@@ -886,13 +885,13 @@ awaitenter();
 printf("Braixen: You don't want my help anymore...?\n");
 awaitenter();
 
-printf("You: No! I don't want your help anymore. Look where you got me! I'm all lost now\n");
-printf("thanks to you. I'm leaving now, don't even bother following me.\n");
+printf("You: No! I don't want your help anymore. Look where you got me! I'm\n");
+printf("all lost now thanks to you. I'm leaving now, don't even bother following me.\n");
 awaitenter();
 
-printf("(You start walking in a straight path, hoping to find any sign of civilization so\n");
-printf("you can get back home. But not long after, you notice someone trailing behind you.\n");
-printf("You turn around and it's the Braixen.)\n");
+printf("(You start walking in a straight path, hoping to find any sign of\n");
+printf("civilization so you can get back home. But not long after, you notice\n");
+printf("someone trailing behind you. You turn around and it's the Braixen.)\n");
 awaitenter();
 
 printf("Braixen: P-Please-\n");
@@ -904,16 +903,14 @@ awaitenter();
 printf("(You turn around and keep walking.)\n");
 awaitenter();
 
-printf("(After another hour of walking by yourself, you still haven't found any signs\n");
-printf("of civilization. You decide to find somewhere to rest and you'll wait until the\n");
-printf("morning to continue walking.)\n");
+printf("(After another hour of walking by yourself, you still haven't found\n");
+printf("any signs of civilization. You decide to find somewhere to rest and\n");
+printf("you'll wait until the morning to continue walking.)\n");
 awaitenter();
 
-printf("(You find a pile of leaves to rest your head on. It's not the best. But it'll do\n");
-printf("for now. You close your eyes and doze off to sleep.)\n");
+printf("(You find a pile of leaves to rest your head on. It's not the best.\n");
+printf("But it'll do for now. You close your eyes and doze off to sleep.)\n");
 awaitenter();
-
-printf("(Night time passes, and you are waken up by a familiar creature.)");
 
 printf("Braixen: Good Morning, Human!!\n");
 awaitenter();
@@ -930,8 +927,8 @@ awaitenter();
 printf("You: You sure did... and I told you to stop following me. Why are you here?\n");
 awaitenter();
 
-printf("Braixen: I was protecting you while you slept. There were a bunch of Pokemon in\n");
-printf("this forest that totally wanted to eat you!\n");
+printf("Braixen: I was protecting you while you slept. There were a bunch\n");
+printf("of Pokemon in this forest that totally wanted to eat you!\n");
 awaitenter();
 
 printf("You: Well thanks, I guess.\n");
@@ -949,11 +946,13 @@ awaitenter();
 printf("You: Yeah, sure. I totally believe you.\n");
 awaitenter();
 
-printf("Braixen: No! I'm serious. I climbed a very tall tree before I woke you up and\n");
-printf("looked around for a bit. I may have found a town we can travel to!\n");
+printf("Braixen: No! I'm serious. I climbed a very tall tree before I woke\n");
+printf("you up and looked around for a bit. I may have found a town we can\n");
+printf("travel to!\n");
 awaitenter();
 
-printf("You: Can I trust you this time? You kinda sent us in the wrong direction last time.\n");
+printf("You: Can I trust you this time? You kinda sent us in the wrong direction\n");
+printf("last time.\n");
 awaitenter();
 
 printf("Braixen: Yep! You can totally trust me this time.\n");
@@ -965,8 +964,9 @@ awaitenter();
 printf("Braixen: Ehh??\n");
 awaitenter();
 
-printf("You: No no, of course I appreciate your help. But, I just kind of find it strange\n");
-printf("that a wild Pokemon is so willing to help some random person like me.\n");
+printf("You: No no, of course I appreciate your help. But, I just kind of\n");
+printf("find it strange that a wild Pokemon is so willing to help some\n");
+printf("random person like me.\n");
 awaitenter();
 
 printf("Braixen: Uhm...\n");
@@ -975,8 +975,8 @@ awaitenter();
 printf("(The Braixen nervously looks at the ground)\n");
 awaitenter();
 
-printf("Braixen: It's because I want you to be my trainer. My previous trainer had abandoned\n");
-printf("me a while ago.\n");
+printf("Braixen: It's because I want you to be my trainer. My previous\n");
+printf("trainer had abandoned me a while ago.\n");
 awaitenter();
 
 printf("You: Oh, why did he abandon you?\n");
@@ -985,17 +985,18 @@ awaitenter();
 printf("Braixen: He Just... Didn't like me, at all.\n");
 awaitenter();
 
-printf("Braixen: My old trainer would constantly berate me all the time because I wasn't up\n");
-printf("to his standards.\n");
+printf("Braixen: My old trainer would constantly berate me all the time\n");
+printf("because I wasn't up to his standards.\n");
 awaitenter();
 
-printf("Braixen: He would always make me fight overpowered Pokemon that I couldn't even dream\n");
-printf("of beating, he compared me negatively to other Pokemon, I just felt utterly useless\n");
-printf("to him. Eventually he just picked me up, led me to this forest, and abandoned me here.\n");
+printf("Braixen: He would always make me fight overpowered Pokemon that I\n");
+printf("couldn't even dream of beating, he compared me negatively to other\n");
+printf("Pokemon, I just felt utterly useless to him. Eventually he just picked\n");
+printf("me up, led me to this forest, and abandoned me here.\n");
 awaitenter();
 
-printf("You: Oh my god that sounds awful. I'm sorry you had to go through that. I kinda feel\n");
-printf("bad now for being mean to you yesterday.\n");
+printf("You: Oh my god that sounds awful. I'm sorry you had to go through that.\n");
+printf("I kinda feel bad now for being mean to you yesterday.\n");
 awaitenter();
 
 printf("Braixen: It's fine, I'm used to it anyways.\n");
@@ -1004,12 +1005,12 @@ awaitenter();
 printf("You: But when we first met, why did you attack me?\n");
 awaitenter();
 
-printf("Braixen: Oh, uhm. I'm not really sure. It's almost like someone took over my mind\n");
-printf("when that happened. Does your head still hurt?\n");
+printf("Braixen: Oh, uhm. I'm not really sure. It's almost like someone took\n");
+printf("over my mind when that happened. Does your head still hurt?\n");
 awaitenter();
 
-printf("You: No, It's doing fine now. I don't think I even hit it that hard. It might have just\n");
-printf("been the shock of being attacked.\n");
+printf("You: No, It's doing fine now. I don't think I even hit it that hard.\n");
+printf("It might have just been the shock of being attacked.\n");
 awaitenter();
 
 printf("Braixen: Good! Anyways, do you want me to lead you out of this forest?\n");
@@ -1033,13 +1034,15 @@ awaitenter();
 printf("(You start running after the Braixen to see where they will bring you)\n");
 awaitenter();
 
-printf("Braixen: Okay. so if I'm right, we'll go this direction and then end up in a town!...\n");
+printf("Braixen: Okay. so if I'm right, we'll go this direction and then\n");
+printf("end up in a town!...\n");
 awaitenter();
 
 printf("(The Braixen points in the direction they want to go in.)\n");
 awaitenter();
 
-printf("Braixen: ...And maybe we can ask the locals for directions back to where you live!\n");
+printf("Braixen: ...And maybe we can ask the locals for directions back to\n");
+printf("where you live!\n");
 awaitenter();
 
 printf("You: Seems like a good idea, you're really smart!\n");
@@ -1048,8 +1051,8 @@ awaitenter();
 printf("Braixen: You mean it?\n");
 awaitenter();
 
-printf("You: Of course I do, I would never think to climb a tree to find a town. I can't even\n");
-printf("climb a tree anyways.\n");
+printf("You: Of course I do, I would never think to climb a tree to find a\n");
+printf("town. I can't even climb a tree anyways.\n");
 awaitenter();
 
 printf("Braixen: Kyu Kyu!\n");
@@ -1061,11 +1064,12 @@ awaitenter();
 printf("Braixen: Now, follow me!!\n");
 awaitenter();
 
-printf("(The Braixen runs off excited to find the town she scoped out, and you follow them.)\n");
+printf("(The Braixen runs off excited to find the town she scoped out, and\n");
+printf("you follow them.)\n");
 awaitenter();
 
-printf("(After walking for another hour, you finally find the exit to the forest. You're now\n");
-printf("at the entrance of an unfamiliar town.)\n");
+printf("(After walking for another hour, you finally find the exit to the\n");
+printf("forest. You're now at the entrance of an unfamiliar town.)\n");
 awaitenter();
 
 printf("Braixen: See! I told you I knew where I was going!\n");
@@ -1077,7 +1081,8 @@ awaitenter();
 printf("(The Braixen starts excitedly wagging its tail.)\n");
 awaitenter();
 
-printf("You: Well, I see a PokeMart over there. Maybe we should get some supplies first.\n");
+printf("You: Well, I see a PokeMart over there. Maybe we should get some\n");
+printf("supplies first.\n");
 awaitenter();
 
 printf("Braixen: Like what?\n");
@@ -1098,26 +1103,28 @@ awaitenter();
 printf("You: Good news!\n");
 awaitenter();
 
-printf("(The Braixen perks its ears up)\n");
+printf("(The Braixen perks it's ears up)\n");
 awaitenter();
 
 printf("You: We have enough money for a few things. Let's go in!\n");
 awaitenter();
 
-printf("(You and Braixen wander into the PokeMart, it looks just like the one in your town.\n");
-printf("You feel at home already!)\n");
+printf("(You and Braixen wander into the PokeMart, it looks just like the\n");
+printf("one in your town. You feel at home already!)\n");
 awaitenter();
 
 printf("You: Okay, where should we start? Supplies, or food?\n");
 awaitenter();
 
-printf("(The Braixen slightly tugs on your shirt and points to the supplies section.)\n");
+printf("(The Braixen slightly tugs on your shirt and points to the supplies\n");
+printf("section.)\n");
 awaitenter();
 
 printf("You: Alright, supplies it is.\n");
 awaitenter();
 
-printf("(You head over to the supplies section and look at the many things on the shelves.)\n");
+printf("(You head over to the supplies section and look at the many things\n");
+printf("on the shelves.)\n");
 awaitenter();
 
 printf("You: Hmm... What should I get? Potions... Escape Ropes... So many choices.\n");
@@ -1132,14 +1139,15 @@ awaitenter();
 printf("You: Braixen??\n");
 awaitenter();
 
-printf("(You turn around and see the Braixen looking at the PokeBall section. You walk over\n");
-printf("to them to see what they are doing.)\n");
+printf("(You turn around and see the Braixen looking at the PokeBall section.\n");
+printf("You walk over to them to see what they are doing.)\n");
 awaitenter();
 
 printf("You: Looking at PokeBalls, huh?\n");
 awaitenter();
 
-printf("(The Braixen silently puts a shiny red Pokeball in your hand and looks at you pleadingly.)\n");
+printf("(The Braixen silently puts a shiny red Pokeball in your hand and looks\n");
+printf("at you pleadingly.)\n");
 awaitenter();
 
 printf("You: Huh? Do you want this?\n");
@@ -1163,11 +1171,12 @@ awaitenter();
 printf("Cashier: Have a nice day!\n");
 awaitenter();
 
-printf("(After paying for the PokeBall, you go over to the cafe, take a seat, and look at\n");
-printf("the menu.)\n");
+printf("(After paying for the PokeBall, you go over to the cafe, take a seat,\n");
+printf("and look at the menu.)\n");
 awaitenter();
 
-printf("You: Oh no, we don't have enough money to get something for the both of us.\n");
+printf("You: Oh no, we don't have enough money to get something for the\n");
+printf("both of us.\n");
 awaitenter();
 
 printf("(The Braixen looks down at the ground, disappointed.)\n");
@@ -1191,12 +1200,12 @@ awaitenter();
 printf("You: Okay. Stay here.\n");
 awaitenter();
 
-printf("(You leave the table you were sitting at and go to the front to make the order. After\n");
-printf("making the order, you sit back down at your table.)\n");
+printf("(You leave the table you were sitting at and go to the front to make\n");
+printf("the order. After making the order, you sit back down at your table.)\n");
 awaitenter();
 
-printf("(After a few minutes, you hear one of the workers call out that your order is ready.\n");
-printf("You get up and grab the fresh omelet.)\n");
+printf("(After a few minutes, you hear one of the workers call out that your\n");
+printf("order is ready. You get up and grab the fresh omelet.)\n");
 awaitenter();
 
 printf("You: Here you go, Braixen!\n");
@@ -1208,29 +1217,30 @@ awaitenter();
 printf("You: You've been pretty silent, Braixen. Are you alright?\n");
 awaitenter();
 
-printf("(The Braixen's eyes start watering up, and a single tear starts to roll down their eye.)\n");
+printf("(The Braixen's eyes start watering up, and a single tear starts to roll\n");
+printf("down their eye.)\n");
 awaitenter();
 
-printf("You: Oh no, wait here. I'll get a to go box so we can leave. Try and keep it together\n");
-printf("for me, alright?\n");
+printf("You: Oh no, wait here. I'll get a to go box so we can leave. Try and\n");
+printf("keep it together for me, alright?\n");
 awaitenter();
 
 printf("(You pick up a napkin and wipe the tears off their eyes.)\n");
 awaitenter();
 
-printf("(You then walk over to the front of the cafe, and ask the worker for a to go box.)\n");
+printf("(You then walk over to the front of the cafe, and ask the worker for a\n");
+printf("to go box.)\n");
 awaitenter();
 
-printf("Worker: Here's your to go box. Oh, and by the way, is that your Pokemon over there?\n");
-printf("They don't look too good. Are they doing alright?\n\n");
-
+printf("Worker: Here's your to go box. Oh, and by the way, is that your\n");
+printf("Pokemon over there? They don't look too good. Are they doing alright?\n\n");
 printf("1. Yeah. they're just having a bad day, that's all.\n");
-printf("2. I think they're about to cry, I don't know what's wrong.\n");
+printf("2. I think theyre about to cry, I don't know what's wrong.\n\n");
+
 
 
 scanf("%s", input);
 choice = atoi(input);
-
 if (choice == 1) {
 awaitenter();
 printf("Worker: Ah, I see. Here's your to go box. have a good rest of your day!\n");
@@ -1239,7 +1249,7 @@ awaitenter();
 
 else if (choice == 2) {
 awaitenter();
-printf("Worker: Oh no, that's not good! Here, take this free PokePuff too. This should cheer them up.\n");
+printf("Worker: Oh no, that's not good! Here, take this free PokePuff too. This should cheer them up. ");
 printf("I hope their day gets better.\n");
 awaitenter();
 }
@@ -1250,7 +1260,6 @@ printf("Ah, I see. Here's your to go box. have a good rest of your day!\n");
 awaitenter();
 }
 
-
 printf("(You walk over to your table and put the half eaten omelet in the box.)\n");
 awaitenter();
 
@@ -1259,6 +1268,7 @@ awaitenter();
 
 printf("(The Braixen stands up and follows you out the door of the PokeMart.)\n");
 awaitenter();
+
 
 
 demonotice();
