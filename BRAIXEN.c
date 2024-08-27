@@ -4,6 +4,8 @@
 #include <string.h>
 
 //THIS CODE IS MEANT TO BE COMPILED AND RUN ON MS-DOS ONLY. COMPILING AND RUNNING ON OTHER PLATFORMS IS POSSIBLE BUT UNSUPPORTED!
+//10 stars on github repo = sex mod
+
 
 int firstlevel();
 int secondlevel();
@@ -11,8 +13,9 @@ int clearit();
 int version();
 int prelude();
 int waitint();
-int thirdlevel();
+int maingame();
 int demonotice();
+char input[100];
 
 void awaitenter() {
     while (getchar() != '\n');
@@ -46,7 +49,8 @@ printf("| 3. Exit Game                                                       |\n
 printf("|                                                                    |\n");
 printf(" --------------------------------------------------------------------\n");
 
-scanf("%d", &userchoice);
+scanf("%s", input);
+userchoice = atoi(input);
 
 if (userchoice == 1) {
     prelude();
@@ -54,26 +58,26 @@ if (userchoice == 1) {
 
 else if (userchoice == 2) {
 clearit();   
-printf(" ------------------------------------------------------- \n");
-printf("|                                                       |\n");
-printf("| Continue Menu:                                        |\n");
-printf("|                                                       |\n");
-printf("|-------------------------------------------------------|\n");
-printf("| Introduction:                                         |\n");
-printf("|                                                       |\n");
-printf("| 1. First Level  2. Second Level                       |\n");
-printf("|                                                       |\n");
-printf("|-------------------------------------------------------|\n");
-printf("| Chapters:                                             |\n");
-printf("|                                                       |\n");
-printf("| 3. First Chapter                                      |\n");
-printf("|                                                       |\n");
-printf("|-------------------------------------------------------|\n");
-printf("| Options:                                              |\n");
-printf("|                                                       |\n");
-printf("| 6. Back to Main Menu                                  |\n");
-printf("|                                                       |\n");
-printf(" ------------------------------------------------------- \n");
+printf(" -------------------------------------------------------------------- \n");
+printf("|                                                                    |\n");
+printf("| Continue Menu:                                                     |\n");
+printf("|                                                                    |\n");
+printf("|--------------------------------------------------------------------|\n");
+printf("| Introduction:                                                      |\n");
+printf("|                                                                    |\n");
+printf("| 1. First Level  2. Second Level                                    |\n");
+printf("|                                                                    |\n");
+printf("|--------------------------------------------------------------------|\n");
+printf("| Chapters:                                                          |\n");
+printf("|                                                                    |\n");
+printf("| 3. First Chapter                                                   |\n");
+printf("|                                                                    |\n");
+printf("|--------------------------------------------------------------------|\n");
+printf("| Options:                                                           |\n");
+printf("|                                                                    |\n");
+printf("| 6. Back to Main Menu                                               |\n");
+printf("|                                                                    |\n");
+printf(" -------------------------------------------------------------------- \n");
 
 
 
@@ -88,33 +92,21 @@ else if (continuechoice == 2) {
 }
 
 else if (continuechoice == 3) {
-    thirdlevel();
+    maingame();
 }
-
-//else if (continuechoice == 4) {
-//clearit();
-//printf("Coming Soon!");
-//return 0;
-
-//}
-
-//else if (continuechoice == 5) {
-//clearit();
-//printf("Coming Soon!");
-//return 0;
-//}
 
 else if (continuechoice == 6) {
 main();
 }
 
 else {
-    return 0;
+//restarts program if there is an invalid input
+//this is shoehorned in but it does *technically* work. and is better than exiting the program entirely.
+main();
 }
 
 
-
-        }
+}
 
 else if (userchoice == 3) {
 clearit();    
@@ -123,8 +115,8 @@ version();
 
 
 else {
-clearit();    
-version();    
+//restarts program if there is an invalid input
+main();
 }
 
 
@@ -136,7 +128,6 @@ int prelude () {
 clearit();
 
 awaitenter();
-
 printf("Game Plot:\n");
 printf("You are a 20-something year old human. you've decided that you\n");
 printf("want to go out and become a Pokemon Trainer. Without any\n");
@@ -272,7 +263,8 @@ clearit();
         }
         else {
         clearit();    
-        version();        return 0;
+        version(); 
+        return 0;
         }
     }
     
@@ -335,7 +327,7 @@ clearit();
     else if (choice == 2) {
 clearit();
                 printf("________________________________________________________________________________\n");
-        printf("You threw a rock at the Braixen, it hit them head. how rude!\n");
+        printf("You threw a rock at the Braixen, it hit their head. how rude!\n");
         charm = 0;
         braixenhealth = braixenhealth - 10;
     }
@@ -548,12 +540,13 @@ int secondlevel () {
 
     }
 
-    thirdlevel();
+    maingame();
 
 }
 
 
-int thirdlevel () {
+int maingame () {
+    //i dont know why i made every part of this game a different function. kill me please
 int response = 0;
 int choice = 0;
 char input[100];
@@ -785,8 +778,6 @@ awaitenter();
 
 printf("(You get up and start walking with the Braixen.)\n");
 awaitenter();
-
-//NEEEEEWWWWWW
 
 printf("(The Braixen is now walking down the forest path, sniffing the\n");
 printf("ground as it tries to follow your scent trail.)\n");
@@ -1238,7 +1229,7 @@ printf("1. Yeah. they're just having a bad day, that's all.\n");
 printf("2. I think theyre about to cry, I don't know what's wrong.\n\n");
 
 
-
+//choosing either option will not effect future gameplay (yet)
 scanf("%s", input);
 choice = atoi(input);
 if (choice == 1) {
@@ -1269,7 +1260,8 @@ awaitenter();
 printf("(The Braixen stands up and follows you out the door of the PokeMart.)\n");
 awaitenter();
 
-
+//hey dumbass, fix your writing so its not as dry as a stale biscuit
+//(do not include this comment in release)
 
 demonotice();
 
@@ -1278,6 +1270,8 @@ demonotice();
 
 int clearit () {
     system("cls");
+    //on other systems, like linux and macosx, the command would be "clear" instead of "cls"
+    //if you decide to compile this on macosx or linux, please change the command to "clear"
 }
 
 int version () {
