@@ -1275,7 +1275,7 @@ int clearit () {
 }
 
 int version () {
-    printf("\nThanks for playing! (Braixen Simulator Beta 1.4 by TechCat-Dev on Github.)\n");
+    printf("\nThanks for playing! (Braixen Simulator Beta 1.4.2 by TechCat-Dev on Github.)\n");
 }
 
 int demonotice () {
