@@ -1,4 +1,4 @@
-(Work in progress.)
+*This repository will be archived since I don't really have an interest in completing this game. the code is a mess and needs to be rewritten to do the things I want it to do and I honestly can't be bothered. feel free to fork this project and do fun things with it, I don't mind!*
 
 Interactive program that simulates an adventure between a human, and a wild Braixen.
 
